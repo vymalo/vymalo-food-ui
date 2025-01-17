@@ -1,6 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@use 'tailwindcss/base';
+@use 'tailwindcss/components';
+@use 'tailwindcss/utilities';
 
 .container {
   @apply mx-auto;
@@ -11,7 +11,7 @@
 }
 
 .nav-border {
-  @apply border-b border-b-base-300 mb-2 md:mb-4;
+  @apply mb-2 border-b border-b-base-300 md:mb-4;
 }
 
 .collapse-content-simple {
@@ -30,7 +30,7 @@
   @apply bg-white;
 }
 
-[data-theme="vymalo-dark"] {
+[data-theme='vymalo-dark'] {
   .nav-border {
     @apply border-base-300;
   }

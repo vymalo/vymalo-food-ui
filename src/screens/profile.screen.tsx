@@ -6,10 +6,6 @@ import { useTranslation } from 'react-i18next';
  * @constructor React.FC
  */
 export const Component: React.FC = () => {
-	const { t } = useTranslation('common');
-	return (
-		<div className="bg-base-100">
-			{t('profile')}
-		</div>
-	);
+  const { t } = useTranslation('common');
+  return <div className='bg-base-100'>{t('profile')}</div>;
 };

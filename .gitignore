@@ -1,3 +1,7 @@
+openapi/
+.yarn
+
+
 # Logs
 logs
 *.log
@@ -10,6 +14,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+bundlemeta.json
 *.local
 
 # Editor directories and files
@@ -23,4 +28,14 @@ dist-ssr
 *.sln
 *.sw?
 
-.env
+coverage
+*storybook.log
+storybook-static
+
+public/images/*.ico
+public/images/*.png
+public/*.ico
+public/*.png
+
+tsconfig.app.tsbuildinfo
+tsconfig.node.tsbuildinfo
