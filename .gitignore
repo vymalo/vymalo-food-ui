@@ -39,3 +39,4 @@ public/*.png
 
 tsconfig.app.tsbuildinfo
 tsconfig.node.tsbuildinfo
+.yarn/*.gz
