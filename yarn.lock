@@ -3208,20 +3208,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/js-sdk@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@medusajs/js-sdk@npm:2.1.3"
+"@medusajs/js-sdk@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@medusajs/js-sdk@npm:2.5.0"
   dependencies:
-    "@medusajs/types": "npm:^2.1.3"
+    "@medusajs/types": "npm:^2.5.0"
     fetch-event-stream: "npm:^0.1.5"
     qs: "npm:^6.12.1"
-  checksum: 10c0/4ae30c06365b0649be6e9795d19a1184f6b8cbba649334fb91b9a6e6910b97c85b9afb1212756cf87fcdd78bd9410e7998fb780ff6ecbbeaf7c66de01d6fc55a
+  checksum: 10c0/d5c4a29590e1727882d4eb329292b64f8b4315ddb37dcea7bf9fb236e6ace20d5116c0fb6c64a33ac4db03b9f7c89a2e180880cd00dd10942580b659653c44ab
   languageName: node
   linkType: hard
 
-"@medusajs/types@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@medusajs/types@npm:2.1.3"
+"@medusajs/types@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@medusajs/types@npm:2.5.0"
   dependencies:
     bignumber.js: "npm:^9.1.2"
   peerDependencies:
@@ -3233,7 +3233,7 @@ __metadata:
       optional: true
     vite:
       optional: true
-  checksum: 10c0/271c0935fec1785f05555ea19d4732b29b67613c3e3600177ebe537a4031b45a9f7769cd86fa6b6d91e2d7e25bcbd615d5b0a368203ba9b3abe2da595cd57133
+  checksum: 10c0/0f37fb37bbb216f98aaf6af1abea0bd7ee41754bd89859eba4b00c119dd3fd3b5c9691dacf68ea4cfea1ef3803eaa72445d1bb19d5609ab82fd0c481ec296ba4
   languageName: node
   linkType: hard
 
@@ -12355,8 +12355,8 @@ __metadata:
   resolution: "vymalo-food-frontend@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.17.0"
-    "@medusajs/js-sdk": "npm:^2.1.3"
-    "@medusajs/types": "npm:^2.1.3"
+    "@medusajs/js-sdk": "npm:^2.5.0"
+    "@medusajs/types": "npm:^2.5.0"
     "@meilisearch/instant-meilisearch": "npm:^0.23.0"
     "@opentelemetry/api": "npm:^1.9.0"
     "@opentelemetry/auto-instrumentations-web": "npm:^0.45.0"
