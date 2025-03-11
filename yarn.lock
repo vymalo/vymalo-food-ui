@@ -9641,7 +9641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.47, postcss@npm:^8.4.49":
+"postcss@npm:^8.4.47":
   version: 8.4.49
   resolution: "postcss@npm:8.4.49"
   dependencies:
@@ -12423,7 +12423,7 @@ __metadata:
     i18next-localstorage-backend: "npm:^4.2.0"
     instantsearch.css: "npm:^8.5.1"
     lodash: "npm:^4.17.21"
-    postcss: "npm:^8.4.49"
+    postcss: "npm:^8.5.3"
     prettier: "npm:^3.4.2"
     prettier-plugin-organize-imports: "npm:^4.1.0"
     prettier-plugin-tailwindcss: "npm:^0.6.9"
