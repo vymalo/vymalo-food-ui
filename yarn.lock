@@ -3208,32 +3208,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/js-sdk@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@medusajs/js-sdk@npm:2.1.3"
+"@medusajs/js-sdk@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@medusajs/js-sdk@npm:2.7.0"
   dependencies:
-    "@medusajs/types": "npm:^2.1.3"
+    "@medusajs/types": "npm:2.7.0"
     fetch-event-stream: "npm:^0.1.5"
     qs: "npm:^6.12.1"
-  checksum: 10c0/4ae30c06365b0649be6e9795d19a1184f6b8cbba649334fb91b9a6e6910b97c85b9afb1212756cf87fcdd78bd9410e7998fb780ff6ecbbeaf7c66de01d6fc55a
+  checksum: 10c0/3bf9ffb0e801108787436b02c2f0e3bc92d45a50dc3ac20002e3e58b6479049e378afeb65b3c81e7d06fb310c9280f6afd326858842eb4a7e868a241d6eac0cc
   languageName: node
   linkType: hard
 
-"@medusajs/types@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@medusajs/types@npm:2.1.3"
+"@medusajs/types@npm:2.7.0, @medusajs/types@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@medusajs/types@npm:2.7.0"
   dependencies:
     bignumber.js: "npm:^9.1.2"
   peerDependencies:
     awilix: ^8.0.1
     ioredis: ^5.4.1
-    vite: ^5.2.11
+    vite: ^5 || ^6
   peerDependenciesMeta:
     ioredis:
       optional: true
     vite:
       optional: true
-  checksum: 10c0/271c0935fec1785f05555ea19d4732b29b67613c3e3600177ebe537a4031b45a9f7769cd86fa6b6d91e2d7e25bcbd615d5b0a368203ba9b3abe2da595cd57133
+  checksum: 10c0/4a7d1bd00eed033bbfcbe21b36b15ae4341ac6e9bd06a28163aeeda5b5e0b0c12ba48f48a89232fa57d4e31859fc5313d620c2db67460d4c608e9b5cbd966d34
   languageName: node
   linkType: hard
 
@@ -12375,8 +12375,8 @@ __metadata:
   resolution: "vymalo-food-frontend@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.17.0"
-    "@medusajs/js-sdk": "npm:^2.1.3"
-    "@medusajs/types": "npm:^2.1.3"
+    "@medusajs/js-sdk": "npm:^2.7.0"
+    "@medusajs/types": "npm:^2.7.0"
     "@meilisearch/instant-meilisearch": "npm:^0.23.0"
     "@opentelemetry/api": "npm:^1.9.0"
     "@opentelemetry/auto-instrumentations-web": "npm:^0.45.0"
